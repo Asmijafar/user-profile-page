@@ -1,0 +1,143 @@
+@media screen and (max-width:1600px) 
+	and (min-device-width: 900px){ 
+		body{
+	background: #F1F3FA;
+	 position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.profile{
+	margin: -60px 0;
+	margin-left: -180px; 
+	margin-right: -600px;
+}
+.profile-sidebar{
+	padding: 100px 0 100px 0;
+	
+}
+.profile-userpic{
+	float: none;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+.profile-userbutton{
+	text-align: center;
+	margin-top: 10px;
+}
+.btn{
+	font-weight: 600px;
+}
+.profile-usertitle-ID{
+	text-align: center;
+	margin-top: 10px;
+}
+.profile-usertitle-name{
+	text-align: center;
+	margin-top: 5px;
+}
+.profile-usertitle-job{
+	text-align: center;
+}
+.profile-usertitle-ID{
+	text-transform: uppercase;
+	color: black;
+	font-size: 30px;
+}
+.profile-usertitle-name{
+	text-transform: uppercase;
+	color: darkblue;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 1px;
+}
+.profile-usertitle-job{
+	color: grey;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.profile-usermenu{
+	margin-top: 15px;
+}
+ul li{
+	border-bottom: 1px solid #f0f4f7;
+}
+.profile-usermenu ul li a{
+   color: black;
+   font-size: 14px;
+   font-weight: 400;
+}
+.profile-usermenu ul li a i{
+	margin-right: 8px;
+	font-size: 14px;
+}
+.profile-content{
+	width: 1000px;
+	height: 660px;
+	margin-left: 400px;
+	margin-right: -1130px;
+	margin-top: -530px;
+	margin-bottom: -350px;
+	padding-left: 20PX;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background: #fff;
+	line-height: 35px;
+}
+}
+
+/* For mobiles*/
+@media screen and (max-width:600px) {
+  body{
+	background: #F1F3FA;
+}
+  .profile {
+	width: 100%;
+	padding: 0;
+  }
+  .profile-userpic{
+	width: 30%;
+	height: 30%;
+	margin-left: 180px;
+  }
+  .profile-userbutton
+  {
+	margin-left: 50px;
+  }
+  .profile-usertitle-ID{
+	   font-size: 20px;
+	   margin-left: 55px;
+}
+  .profile-usertitle-name{
+	   font-size: 20px;
+	   margin-left: 55px;
+}
+.profile-usertitle-job{
+	   font-size: 15px;
+	   margin-left: 55px;
+}
+.profile-usermenu ul a i{
+	margin-right: 8px;
+	font-size: 7px;
+	margin-left: 130px;
+}
+  .profile-content{
+	width: 270px;
+	height: 660px;
+	margin-left: 350px;
+	margin-right: -1130px;
+	margin-top: -410px;
+	margin-bottom: -350px;
+	padding-left: 30PX;
+	padding-right: 200px;
+	background: #fff;
+	line-height: 10px;
+	font-size: 13px;
+
+}
+}
+
+
